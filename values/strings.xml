@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Binus Ezyfoody</string>
+    <string name="drinks">Drinks</string>
+    <string name="snacks">Snacks</string>
+    <string name="foods">Foods</string>
+    <string name="topup">Top-Up</string>
+    <string name="myorder">My Order</string>
+    <string name="citato">Chitato</string>
+    <string name="lays">Lays</string>
+    <string name="doritos">Doritos</string>
+    <string name="cheetos">Cheetos</string>
+    <string name="citatoPrice">Rp 10000</string>
+    <string name="laysPrice">Rp 11000</string>
+    <string name="doritosPrice">Rp 15000</string>
+    <string name="cheetosPrice">Rp 8000</string>
+    <string name="orangejuice">Orange Juice</string>
+    <string name="water">Water</string>
+    <string name="tea">Tea</string>
+    <string name="coffee">Coffee</string>
+    <string name="orangePrice">Rp 7000</string>
+    <string name="waterPrice">Rp 4000</string>
+    <string name="teaPrice">Rp 5000</string>
+    <string name="coffeePrice">Rp 5000</string>
+    <string name="indomiegoreng">Indomie Goreng</string>
+    <string name="indomiekuah">Indomie Kuah</string>
+    <string name="ayamgoreng">Ayam Goreng</string>
+    <string name="satepadang">Sate Padang</string>
+    <string name="indomiegorengprice">Rp 8000</string>
+    <string name="indomiekuahprice">Rp 8000</string>
+    <string name="ayamgorengprice">Rp 10000</string>
+    <string name="satepadangprice">Rp 12000</string>
+    <string name="text_label_1">label1</string>
+    <string name="text_label_2">label2</string>
+    <string name="text_label_3">label3</string>
+    <string name="text_label_4">label4</string>
+    <string name="title_activity_bottom_nav_bar">BottomNavBar</string>
+    <string name="title_home">My Order</string>
+    <string name="title_notifications">Profile</string>
+
+</resources>

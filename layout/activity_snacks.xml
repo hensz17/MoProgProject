@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Snacks">
+
+    <TextView
+        android:id="@+id/snackstitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/scndteal"
+        android:text="  Snacks"
+        android:textSize="50dp"
+    />
+    <Button
+        android:id="@+id/myorder_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myorder"
+        android:backgroundTint="@color/thrdteal"
+        android:layout_margin="14dp"
+        app:layout_constraintTop_toBottomOf="@id/snackstitle"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/snacksmenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/myorder_but"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/citato"
+            />
+
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/citato"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/citatoPrice"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order_citato"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/thrdteal"
+            android:text="Order"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/snacksmenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snacksmenu1">
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/lays" />
+
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lays" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/laysPrice" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/order_lays"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/thrdteal"
+            android:text="Order"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/snacksmenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snacksmenu2">
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/doritos" />
+
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doritos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/doritosPrice" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order_doritos"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/thrdteal"
+            android:text="Order"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/snacksmenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snacksmenu3">
+
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="138dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/cheetos" />
+
+
+        <LinearLayout
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cheetos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cheetosPrice" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order_cheetos"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/thrdteal"
+            android:text="Order"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/order_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/thrdteal"
+        android:text="Order More"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/snacksmenu4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
