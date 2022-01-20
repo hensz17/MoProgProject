@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/myorder_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginRight="24dp"
+        android:backgroundTint="@color/thrdteal"
+        android:text="@string/myorder"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tablayout" />
+
+    <GridLayout
+        android:id="@+id/main_button_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/drinks_but"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/drinks"
+            android:backgroundTint="@color/thrdteal"
+            android:layout_margin="25dp"
+
+            />
+        <Button
+            android:id="@+id/snacks_but"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/snacks"
+            android:backgroundTint="@color/thrdteal"
+            android:layout_margin="25dp"
+            />
+        <Button
+            android:id="@+id/food_but"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/foods"
+            android:backgroundTint="@color/thrdteal"
+            android:layout_margin="25dp"
+            />
+        <Button
+            android:id="@+id/topup_but"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:text="@string/topup"
+            android:backgroundTint="@color/thrdteal"
+            android:layout_margin="25dp"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_margin="25dp"
+        android:layout_marginRight="24dp"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintTop_toBottomOf="@+id/myorder_but" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="157dp"
+        android:layout_height="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
